@@ -60,7 +60,10 @@ File: Layout CSS
 .elements article p{margin:0; line-height:normal;}
 
 /* Introblocks */
-#introblocks{display:block; position:relative; margin:-160px 0 130px 0; z-index:1;}/* 160px => 80px + container padding */
+#introblocks{display:block; position:relative;
+    /* margin:-160px 0 130px 0; */
+    margin:-50px 0 50px 0;
+    z-index:1;}/* 160px => 80px + container padding */
 
 /* Services */
 #services{}

@@ -9,7 +9,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#suppliers">Suppliers</a></li>
-                <li><a href="#directors">Directors</a></li>
+                {{-- <li><a href="#directors">Directors</a></li> --}}
                 <li><a href="#contactus">Contact US</a></li>
             </ul>
         </nav>

@@ -98,7 +98,7 @@
             <div class="clear"></div>
         </main>
     </div>
-    <div class="wrapper row3" style="background-color: #DEDEDE">
+    {{-- <div class="wrapper row3" style="background-color: #DEDEDE">
         <main class="hoc container clear">
             <!-- main body -->
             <section class="group shout">
@@ -117,7 +117,7 @@
             </section>
             <div class="clear"></div>
         </main>
-    </div>
+    </div> --}}
 
     <div class="wrapper row3">
         <section class="hoc container clear">
@@ -253,13 +253,13 @@
 
     <div class="wrapper coloured">
         <section class="hoc container clear">
-            <article class="one_half first">
+            {{-- <article class="one_half first">
                 <figure class="one_half first"><img src="{{ asset('assets/frontend/images/collected/bdm.jpg') }}"
                         alt="">
                     <figcaption class="heading">Prem Jith<br>Business Development Manager</figcaption>
                 </figure>
-            </article>
-            <article class="one_half">
+            </article> --}}
+            <article>
                 "At Stellar, we are firm believers that
                 a company’s stronghold is its customers.
                 Without satisfied customers, a business
@@ -395,7 +395,7 @@
         </div>
 
 
-        <div class="wrapper gradient" id="directors">
+        {{-- <div class="wrapper gradient" id="directors">
             <div class="hoc container clear">
                 <div class="sectiontitle">
                     <h6 class="heading font-x2">Board of Directors</h6>
@@ -427,7 +427,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
 
         <div class="wrapper row2" id="contactus">
             <section id="ctdetails" class="hoc container clear">
