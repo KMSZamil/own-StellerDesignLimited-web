@@ -1,5 +1,20 @@
 @extends('layouts.frontend.master')
 
+@push('css')
+    <style>
+        .pt-35 {
+            padding-top: 35px;
+        }
+
+        .pt-15 {
+            padding-top: 15px;
+        }
+        .img_resize{
+            width: 35%;
+        }
+    </style>
+@endpush
+
 @section('page_title')
     Steller Design Ltd
 @endsection
@@ -45,11 +60,11 @@
             </section>
             <div class="clear"></div>
             {{-- <section class="group shout">
-                <figure class="one_half first"><img src="{{ asset('assets/frontend/images/demo/546x356.png') }}"
+                <figure class="one_half first"><img class="lazy" src="{{ asset('assets/frontend/images/demo/546x356.png') }}"
                         alt="">
                     <figcaption class="heading"><a href="#">Accumsan placerat</a></figcaption>
                 </figure>
-                <figure class="one_half"><img src="{{ asset('assets/frontend/images/demo/546x356.png') }}" alt="">
+                <figure class="one_half"><img class="lazy" src="{{ asset('assets/frontend/images/demo/546x356.png') }}" alt="">
                     <figcaption class="heading"><a href="#">Scelerisque etiam</a></figcaption>
                 </figure>
             </section> --}}
@@ -81,8 +96,8 @@
         <main class="hoc container clear">
             <!-- main body -->
             <section class="group shout">
-                <figure class="one_half first"><img src="{{ asset('assets/frontend/images/collected/ceo.jpg') }}"
-                        alt="">
+                <figure class="one_half first"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/collected/ceo.jpg') }}" alt="">
                     <figcaption class="heading">Gamini Perera<br>Chairman and CEO</figcaption>
                 </figure>
                 <article class="one_half">
@@ -111,7 +126,7 @@
                         country in the world, which is why we will be able to offer our clients the most
                         competitive prices and maximize the profitability of our customers.</p>
                 </article>
-                <figure class="one_half"><img src="{{ asset('assets/frontend/images/collected/md.jpg') }}" alt="">
+                <figure class="one_half"><img class="lazy" src="{{ asset('assets/frontend/images/collected/md.jpg') }}" alt="">
                     <figcaption class="heading">Ashiq Seraj<br>Managing Director</figcaption>
                 </figure>
             </section>
@@ -185,6 +200,17 @@
         </section>
     </div>
 
+    <div
+        style="background-image:url('{{ asset('assets/frontend/images/collected/banner3.jpg') }}');
+  background-repeat: no-repeat;
+  background-position: center;">
+        <div id="pageintro" class="hoc clear">
+            <article>
+
+            </article>
+        </div>
+    </div>
+
     <div class="wrapper coloured" id="services">
         <section class="hoc container clear">
             <article class="one_third first">
@@ -210,6 +236,10 @@
             </article>
         </section>
     </div>
+
+
+
+
 
 
     <div style="background-color: #DEDEDE">
@@ -254,7 +284,7 @@
     <div class="wrapper coloured">
         <section class="hoc container clear">
             {{-- <article class="one_half first">
-                <figure class="one_half first"><img src="{{ asset('assets/frontend/images/collected/bdm.jpg') }}"
+                <figure class="one_half first"><img class="lazy" src="{{ asset('assets/frontend/images/collected/bdm.jpg') }}"
                         alt="">
                     <figcaption class="heading">Prem Jith<br>Business Development Manager</figcaption>
                 </figure>
@@ -292,57 +322,159 @@
         </section>
     </div>
 
+
+    <div class="wrapper row3" id="gallery">
+        <section class="hoc container clear">
+            <div class="sectiontitle">
+                <h6 class="heading font-x2">Gallery</h6>
+            </div>
+            <ul id="latest" class="nospace group">
+                <li class="one_third first">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/1.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/2.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/3.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+
+                <li class="one_third first pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/8.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/5.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/6.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third first pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/7.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/9.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third pt-35">
+                    <article><a class="imgover" href="#"><img class="lazy"
+                                src="{{ asset('assets/frontend/images/gallery/4.jpg') }}" alt=""></a>
+                        <div class="excerpt">
+                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                                    maecenas</a></p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+
     <div style="background-color: #DEDEDE" id="clients">
         <section id="testimonials" class="hoc container clear">
             <div class="sectiontitle">
                 <h6 class="heading font-x2" style="color: black">Our Clients</h6>
             </div>
             <article class="one_quarter first">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/lidl.png') }}" alt="">
-                </figure>
-            </article>
-            <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/auchan.png') }}" alt="">
-                </figure>
-            </article>
-            <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/jcpenney.png') }}" alt="">
-                </figure>
-            </article>
-            <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/ferever21.png') }}"
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/lidl.png') }}"
                         alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/walmart.png') }}"
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/auchan.png') }}"
                         alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/lotto.png') }}" alt="">
+                <figure class="clear"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/client/jcpenney.png') }}" alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/jammers.png') }}"
+                <figure class="clear"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/client/ferever21.png') }}" alt="">
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure class="clear"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/client/walmart.png') }}" alt="">
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/lotto.png') }}"
                         alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/kohls.png') }}" alt="">
+                <figure class="clear"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/client/jammers.png') }}" alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/ebi.png') }}" alt="">
-                </figure>
-            </article>
-            <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/carrefour.png') }}"
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/kohls.png') }}"
                         alt="">
                 </figure>
             </article>
             <article class="one_quarter">
-                <figure class="clear"><img src="{{ asset('assets/frontend/images/client/ife.png') }}" alt="">
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/ebi.png') }}"
+                        alt="">
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure class="clear"><img class="lazy"
+                        src="{{ asset('assets/frontend/images/client/carrefour.png') }}" alt="">
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure class="clear"><img class="lazy" src="{{ asset('assets/frontend/images/client/ife.png') }}"
+                        alt="">
                 </figure>
             </article>
         </section>
@@ -365,22 +497,22 @@
 
                         <section class="group shout">
                             <article class="one_quarter first">
-                                <figure class="clear"><img
+                                <figure class="clear"><img class="lazy"
                                         src="{{ asset('assets/frontend/images/suppliers/wrap.png') }}" alt="">
                                 </figure>
                             </article>
                             <article class="one_quarter">
-                                <figure class="clear"><img
+                                <figure class="clear"><img class="lazy"
                                         src="{{ asset('assets/frontend/images/suppliers/bsci.png') }}" alt="">
                                 </figure>
                             </article>
                             <article class="one_quarter">
-                                <figure class="clear"><img
+                                <figure class="clear"><img class="lazy"
                                         src="{{ asset('assets/frontend/images/suppliers/sedex.png') }}" alt="">
                                 </figure>
                             </article>
                             <article class="one_quarter">
-                                <figure class="clear"><img
+                                <figure class="clear"><img class="lazy"
                                         src="{{ asset('assets/frontend/images/suppliers/okeotex.png') }}" alt="">
                                 </figure>
                             </article>
@@ -402,25 +534,25 @@
                 </div>
                 <ul class="nospace group team">
                     <li class="one_quarter first">
-                        <figure><a><img src="{{ asset('assets/frontend/images/collected/d3.jpg') }}"
+                        <figure><a><img class="lazy" src="{{ asset('assets/frontend/images/collected/d3.jpg') }}"
                                     alt="Gamini Perera"></a>
                             <figcaption><strong>Gamini Perera</strong> <em>Chairman and CEO</em></figcaption>
                         </figure>
                     </li>
                     <li class="one_quarter">
-                        <figure><a><img src="{{ asset('assets/frontend/images//collected/d2.jpg') }}"
+                        <figure><a><img class="lazy" src="{{ asset('assets/frontend/images//collected/d2.jpg') }}"
                                     alt="Ashiq Seraj"></a>
                             <figcaption><strong>Ashiq Seraj</strong> <em>Managing Director</em></figcaption>
                         </figure>
                     </li>
                     <li class="one_quarter">
-                        <figure><a><img src="{{ asset('assets/frontend/images//collected/d1.jpg') }}"
+                        <figure><a><img class="lazy" src="{{ asset('assets/frontend/images//collected/d1.jpg') }}"
                                     alt="Imayan V. Rajah"></a>
                             <figcaption><strong>Imayan V. Rajah</strong> <em>Director</em></figcaption>
                         </figure>
                     </li>
                     <li class="one_quarter">
-                        <figure><a><img src="{{ asset('assets/frontend/images/collected/d2.jpg') }}"
+                        <figure><a><img class="lazy" src="{{ asset('assets/frontend/images/collected/d2.jpg') }}"
                                     alt="Raafi Zakaria"></a>
                             <figcaption><strong>Raafi Zakaria</strong> <em>Director</em></figcaption>
                         </figure>
@@ -429,7 +561,7 @@
             </div>
         </div> --}}
 
-        <div class="wrapper row2" id="contactus">
+        {{-- <div class="wrapper row2" id="contactus">
             <section id="ctdetails" class="hoc container clear">
                 <div class="sectiontitle">
                     <h6 class="heading font-x2">Contact US</h6>
@@ -441,7 +573,8 @@
                                 Road 11
                                 Baridhara DOHS
                                 Dhaka 1206
-                                Bangladesh</span></li>
+                                Bangladesh</span>
+                        </li>
                         <li class="one-third"><a><i class="fas fa-envelope"></i></a> <span><strong>Send
                                     us a
                                     mail:</strong> i.director@stellardesignsltd.com ||
@@ -452,5 +585,51 @@
                     </ul>
                 </figure>
             </section>
+        </div> --}}
+
+        <div class="wrapper coloured">
+            <section id="testimonials" class="hoc container clear">
+                <div class="sectiontitle">
+                    <h6 class="heading font-x2">Contact US</h6>
+                </div>
+                <article class="one_third first">
+                    <figure class="clear"><img class="lazy img_resize" src="{{asset('assets/frontend/images/collected/location.png')}}" alt="location">
+                        <figcaption>
+                            <h6 class="heading"><span><strong>Address:</strong> House 531/2
+                                Road 11
+                                Baridhara DOHS
+                                Dhaka 1206
+                                Bangladesh</span></h6>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="one_third">
+                    <figure class="clear"><img class="lazy img_resize" src="{{asset('assets/frontend/images/collected/mail.png')}}" alt="mamil">
+                        <figcaption>
+                            <h6 class="heading"><span><strong>Send
+                                    us a
+                                    mail:</strong> i.director@stellardesignsltd.com ||
+                                info@stellardesignsltd.com</span></h6>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="one_third">
+                    <figure class="clear"><img class="lazy img_resize" src="{{asset('assets/frontend/images/collected/phone.png')}}" alt="phone">
+                        <figcaption>
+                            <h6 class="heading"><span><strong>Phone:</strong> +880 199 780 0054</span></h6>
+                        </figcaption>
+                    </figure>
+                </article>
+            </section>
+
         </div>
     @endsection
+
+
+    @push('js')
+        <script>
+            $(function() {
+                $('.lazy').Lazy();
+            });
+        </script>
+    @endpush

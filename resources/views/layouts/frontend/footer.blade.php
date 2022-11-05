@@ -1,5 +1,5 @@
 <div class="bgded overlay row4"
-    style="background-image:url('{{ asset('assets/frontend/images/demo/backgrounds/01.png') }}');">
+    style="background-image:url('{{ asset('assets/frontend/images/collected/background2.jpg') }}');">
     <footer id="footer" class="hoc clear">
         <div>
             <h1 class="logoname"><a href="{{ route('frontend.index') }}">Steller<span>D</span>esign<span>L</span>td</a></h1>

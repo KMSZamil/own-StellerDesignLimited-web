@@ -7,6 +7,7 @@
             <ul class="clear">
                 <li class="active"><a href="{{ route('frontend.index')}}">Home</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#suppliers">Suppliers</a></li>
                 {{-- <li><a href="#directors">Directors</a></li> --}}

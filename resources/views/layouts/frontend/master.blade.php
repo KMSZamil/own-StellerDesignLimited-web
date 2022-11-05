@@ -8,8 +8,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="{{ asset('assets/images/z-black.png') }}" rel="icon">
     <link href="{{ asset('assets/frontend/styles/layout.css') }}" rel="stylesheet" type="text/css" media="all">
-    
+
 
     {!! SEOMeta::generate() !!}
     {!! OpenGraph::generate() !!}
@@ -20,7 +21,7 @@
             scroll-behavior: smooth
         }
     </style>
-    @push('css')
+    @stack('css')
 
     </head>
 
@@ -41,10 +42,11 @@
         <script src="{{ asset('assets/frontend/scripts/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/frontend/scripts/jquery.backtotop.js') }}"></script>
         <script src="{{ asset('assets/frontend/scripts/jquery.mobilemenu.js') }}"></script>
-
         <script src="{{ asset('assets/frontend/scripts/jquery.easypiechart.min.js') }}"></script>
+         <script src="{{ asset('assets/js/jquery_lazy/jquery.lazy.min.js') }}"></script>
+         <script src="{{ asset('assets/js/jquery_lazy/jquery.lazy.plugins.min.js') }}"></script>
 
-        @push('js')
+        @stack('js')
 
         </body>
 
