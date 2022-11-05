@@ -21,6 +21,6 @@
 <div class="wrapper">
     <div id="copyright" class="hoc clear" style="text-align: center">
         <p>Copyright &copy; {{ date('Y') }} - All Rights Reserved - <a>Steller
-                design</a></p>
+                design Ltd</a></p>
     </div>
 </div>

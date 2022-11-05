@@ -330,83 +330,83 @@
             </div>
             <ul id="latest" class="nospace group">
                 <li class="one_third first">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/1.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/2.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/3.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
 
                 <li class="one_third first pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/8.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/5.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/6.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third first pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/7.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/9.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
                 </li>
                 <li class="one_third pt-35">
-                    <article><a class="imgover" href="#"><img class="lazy"
+                    <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/4.jpg') }}" alt=""></a>
                         <div class="excerpt">
-                            <p class="heading"><a href="#">Quam justo suscipit at blandit at blandit vitae tellus
+                            <p class="heading"><a>Quam justo suscipit at blandit at blandit vitae tellus
                                     maecenas</a></p>
                         </div>
                     </article>
@@ -608,7 +608,7 @@
                         <figcaption>
                             <h6 class="heading"><span><strong>Send
                                     us a
-                                    mail:</strong> i.director@stellardesignsltd.com ||
+                                    mail:</strong> i.director@stellardesignsltd.com
                                 info@stellardesignsltd.com</span></h6>
                         </figcaption>
                     </figure>
