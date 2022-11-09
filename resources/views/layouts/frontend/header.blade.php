@@ -1,7 +1,8 @@
 <div class="wrapper row1">
     <header id="header" class="hoc clear">
         <div id="logo" class="fl_left">
-            <h1 class="logoname"><a href="{{ route('frontend.index')}}">Steller<span>D</span>esign<span>L</span>td</a></h1>
+            <img style="width: 50%; padding-bottom:20px" class="img-fluid pb-3" src="{{ asset('assets/frontend/images/collected/logo.png')}}" alt="logo">
+            {{-- <h1 class="logoname"><a href="{{ route('frontend.index')}}">Steller<span>D</span>esign<span>L</span>td</a></h1> --}}
         </div>
         <nav id="mainav" class="fl_right">
             <ul class="clear">
