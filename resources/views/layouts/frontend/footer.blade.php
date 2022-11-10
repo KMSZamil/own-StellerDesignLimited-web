@@ -8,13 +8,13 @@
                 Bangladesh. Over the years it has culminated notable experience in producing
                 ready-made garments consisting of both knit and woven wear to renowned clothing
                 brands and importers in the US, Canadian and European markets.</p>
-            <ul class="faico clear">
+            {{-- <ul class="faico clear">
                 <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
                 <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a></li>
-            </ul>
+            </ul> --}}
         </div>
     </footer>
 </div>
