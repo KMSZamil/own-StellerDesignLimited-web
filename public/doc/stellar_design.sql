@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 04, 2022 at 02:19 PM
+-- Generation Time: Nov 11, 2022 at 01:11 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `steller_design`
+-- Database: `stellar_design`
 --
 
 -- --------------------------------------------------------
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `home_seos` (
 --
 
 INSERT INTO `home_seos` (`id`, `title`, `description`, `keywords`, `url`, `image_path`, `created_at`, `updated_at`) VALUES
-(1, 'Steller Design', 'Stellar Designs Ltd is a leading apparel sourcing company based in Dhaka,\r\nBangladesh. Over the years it has culminated notable experience in producing\r\nready-made garments consisting of both knit and woven wear to renowned clothing\r\nbrands and importers in the US, Canadian and European markets.', 'Steller Design, Web, Designs, Dhaka, Apparel, Zamil', 'http://stellardesignsltd.com/', 'storage/Banner.jpg', NULL, NULL);
+(1, 'Stellar Design', 'Stellar Designs Ltd is a leading apparel sourcing company based in Dhaka,\r\nBangladesh. Over the years it has culminated notable experience in producing\r\nready-made garments consisting of both knit and woven wear to renowned clothing\r\nbrands and importers in the US, Canadian and European markets.', 'Stellar Design, Web, Designs, Dhaka, Apparel, Zamil', 'http://stellardesignsltd.com/', 'storage/Banner.jpg', NULL, NULL);
 
 -- --------------------------------------------------------
 
