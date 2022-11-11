@@ -24,10 +24,10 @@
     <div class="bgded overlay" style="background-image:url('{{ asset('storage/Banner.jpg') }}');">
         <div id="pageintro" class="hoc clear">
             <article>
-                <h3 class="heading">Stellar Designs Ltd</h3>
+                <h3 class="heading animate__animated animate__backInDown">Stellar Designs Ltd</h3>
                 <p>Stellar Designs Ltd is a leading apparel sourcing company based in Dhaka,
                     Bangladesh.</p>
-                <footer><a class="btn" href="#about">Read More</a></footer>
+                <footer><a class="btn animate__animated animate__shakeX" href="#about">Read More</a></footer>
             </article>
         </div>
     </div>
@@ -140,7 +140,7 @@
         <section class="hoc container clear">
             <section id="introblocks">
                 <ul class="nospace group elements elements-four">
-                    <li class="one_third">
+                    <li class="one_third appear_block">
                         <article><a href="#"><i class="fas fa-check-circle"></i></a>
                             <h6 class="heading">Quality Control & Assurance</h6>
                             <p>Our quality control & assurance is
@@ -152,7 +152,7 @@
                                 name a few.</p>
                         </article>
                     </li>
-                    <li class="one_third">
+                    <li class="one_third appear_block">
                         <article><a href="#"><i class="fas fa-file-medical-alt"></i></a>
                             <h6 class="heading">Research & Development</h6>
                             <p>Not many apparel sourcing offices in
@@ -164,7 +164,7 @@
                                 our respected clients.</p>
                         </article>
                     </li>
-                    <li class="one_third">
+                    <li class="one_third appear_block">
                         <article><a href="#"><i class="fas fa-user-friends"></i></a>
                             <h6 class="heading">Merchandising</h6>
                             <p>With several years of prolific
@@ -269,7 +269,7 @@
     <div style="background-color: #DEDEDE">
         <section id="services" class="hoc container clear">
             <ul class="nospace group elements elements-three">
-                <li class="one_third">
+                <li class="one_third appear_block1">
                     <article><a><i class="fas fa-chart-line"></i></a>
                         <h6 class="heading">Business Development</h6>
                         <p>Stellar Designs Ltd employs a
@@ -280,7 +280,7 @@
                             address their issues.</p>
                     </article>
                 </li>
-                <li class="one_third">
+                <li class="one_third appear_block1">
                     <article><a><i class="fas fa-clipboard-list"></i></a>
                         <h6 class="heading">Commercial & Logistics</h6>
                         <p>The commercial and logistics
@@ -291,7 +291,7 @@
                             dealing with the freight forwarders.</p>
                     </article>
                 </li>
-                <li class="one_third">
+                <li class="one_third appear_block1">
                     <article><a><i class="fas fa-braille"></i></a>
                         <h6 class="heading">Sourcing Department</h6>
                         <p>This department is tasked with
@@ -353,48 +353,48 @@
                 <h6 class="heading font-x2">Gallery</h6>
             </div>
             <ul id="latest" class="nospace group">
-                <li class="one_third first">
+                <li class="one_third first appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/1.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third">
+                <li class="one_third appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/2.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third">
+                <li class="one_third appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/3.jpg') }}" alt=""></a>
                     </article>
                 </li>
 
-                <li class="one_third first pt-35">
+                <li class="one_third first pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/8.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third pt-35">
+                <li class="one_third pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/5.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third pt-35">
+                <li class="one_third pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/6.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third first pt-35">
+                <li class="one_third first pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/7.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third pt-35">
+                <li class="one_third pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/9.jpg') }}" alt=""></a>
                     </article>
                 </li>
-                <li class="one_third pt-35">
+                <li class="one_third pt-35 appear_image">
                     <article><a class="imgover"><img class="lazy"
                                 src="{{ asset('assets/frontend/images/gallery/4.jpg') }}" alt=""></a>
                     </article>
@@ -472,6 +472,7 @@
             <main class="hoc container clear">
                 <section class="group shout">
                     <article>
+                        <h1 class="animate__animated animate__bounce">An animated element</h1>
                         <h1 class="heading"><b>Our Suppliers</b></h1>
                         <p>Our manufacturing units are fully compliant with BSCI, SEDEX, WRAP, ACCORD,
                             ALLIANCE,Oeko-tex. All of them are vertically set and leading manufactures in
@@ -620,6 +621,49 @@
         <script>
             $(function() {
                 $('.lazy').Lazy();
+            });
+
+            // $(window).on('scroll', function() {
+            //     if ($(".show_bounce").is(':visible')) {
+            //         alert('show');
+            //         $(".show_bounce").addClass("animate__animated animate__bounce");
+            //     }
+            // });
+
+            $(window).scroll(function() {
+                var top_of_element2 = $(".appear_block").offset().top;
+                var bottom_of_element2 = $(".appear_block").offset().top + $(".appear_block").outerHeight();
+                var bottom_of_screen2 = $(window).scrollTop() + $(window).innerHeight();
+                var top_of_screen2 = $(window).scrollTop();
+
+                if ((bottom_of_screen2 > top_of_element2) && (top_of_screen2 < bottom_of_element2)) {
+                    //alert('view');
+                    $(".appear_block").addClass("animate__animated animate__backInUp");
+                }
+
+
+                var top_of_element1 = $(".appear_block1").offset().top;
+                var bottom_of_element1 = $(".appear_block1").offset().top + $(".appear_block1").outerHeight();
+                var bottom_of_screen1 = $(window).scrollTop() + $(window).innerHeight();
+                var top_of_screen1 = $(window).scrollTop();
+
+                if ((bottom_of_screen1 > top_of_element1) && (top_of_screen1 < bottom_of_element1)) {
+                    //alert('view');
+                    $(".appear_block1").addClass("animate__animated animate__backInDown");
+                }
+
+
+                var top_of_element3 = $(".appear_image").offset().top;
+                var bottom_of_element3 = $(".appear_image").offset().top + $(".appear_image").outerHeight();
+                var bottom_of_screen3 = $(window).scrollTop() + $(window).innerHeight();
+                var top_of_screen3 = $(window).scrollTop();
+
+                if ((bottom_of_screen3 > top_of_element3) && (top_of_screen3 < bottom_of_element3)) {
+                    //alert('view');
+                    $(".appear_image").addClass("animate__animated animate__backInRight");
+                }
+
+
             });
         </script>
     @endpush
