@@ -1,5 +1,7 @@
-<div class="bgded overlay row4"
-    style="background-image:url('{{ asset('assets/frontend/images/collected/background2.jpg') }}');">
+<div class="bgded row3"
+{{-- bgded overlay row4 --}}
+    {{-- style="background-image:url('{{ asset('assets/frontend/images/collected/background2.jpg') }}');" --}}
+    >
     <footer id="footer" class="hoc clear">
         <div>
             <img style="width: 20%; padding-bottom:20px" class="img-fluid pb-3" src="{{ asset('assets/frontend/images/collected/logo.png')}}" alt="logo">
@@ -21,7 +23,7 @@
 
 <div class="wrapper">
     <div id="copyright" class="hoc clear" style="text-align: center">
-        <p>Copyright &copy; 2018 - All Rights Reserved - <a>Steller
-                design Ltd</a></p>
+        <p>Copyright &copy; 2018 - All Rights Reserved - <a>Stellar
+                Design Ltd</a></p>
     </div>
 </div>

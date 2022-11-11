@@ -115,29 +115,38 @@
             <div class="clear"></div>
         </main>
     </div>
-    {{-- <div class="wrapper row3" style="background-color: #DEDEDE">
-        <main class="hoc container clear">
-            <!-- main body -->
-            <section class="group shout">
-                <article class="one_half first">
-                    <h1 class="heading"><b>Message from the Managing Director</b></h1>
-                    <p>The Bangladesh ready-made garments sector is going through its golden era is what I
-                        would say. This is the best time for apparel buyers from all over the world to start
-                        thinking of sourcing their garments and other apparel merchandise from Bangladesh.</p>
-                    <p>Bangladesh offers the lowest labor cost compared to any other garments producing
-                        country in the world, which is why we will be able to offer our clients the most
-                        competitive prices and maximize the profitability of our customers.</p>
-                </article>
-                <figure class="one_half"><img class="lazy" src="{{ asset('assets/frontend/images/collected/md.jpg') }}" alt="">
-                    <figcaption class="heading">Ashiq Seraj<br>Managing Director</figcaption>
-                </figure>
-            </section>
-            <div class="clear"></div>
-        </main>
-    </div> --}}
 
-    <div class="wrapper row3">
+    <div class="wrapper coloured">
         <section class="hoc container clear">
+            <article class="one_third first">
+                <h1><b>The Stellar Team</b>
+                    <h1>
+            </article>
+            <article class="one_third">
+                Our management team consists of four
+                directors with a collective accumulated
+                experience of forty five years in the RMG
+                sector, they have a profound knowledge in
+                the areas of merchandising, quality control
+                and assurance, product pricing and
+                development.
+            </article>
+            <article class="one_third">
+                They play an active role in maintaining
+                liaison with the customers through
+                unhindered communication. The employees
+                working at Stellar Designs Ltd are
+                classified into different departments based
+                on their field of expertise.
+            </article>
+        </section>
+    </div>
+
+    <div class="wrapper row3" id="services">
+        <section class="hoc container clear">
+            <div class="sectiontitle">
+                <h6 class="heading font-x2">Our Services</h6>
+            </div>
             <section id="introblocks">
                 <ul class="nospace group elements elements-four">
                     <li class="one_third appear_block">
@@ -213,10 +222,9 @@
         </div>
     </div>
 
-    <div class="wrapper row3">
+    {{-- <div class="wrapper row3">
         <section class="hoc container clear">
             <div class="sectiontitle">
-                {{-- <p class="nospace font-xs">Rutrum erat nec mollis augue mauris</p> --}}
                 <h6 class="heading font-x2">Our Believes</h6>
             </div>
             <ul class="pr-charts nospace group center">
@@ -238,36 +246,10 @@
                 </li>
             </ul>
         </section>
-    </div>
-
-    <div class="wrapper coloured" id="services">
-        <section class="hoc container clear">
-            <article class="one_third first">
-                <h1><b>The Stellar Team</b>
-                    <h1>
-            </article>
-            <article class="one_third">
-                Our management team consists of four
-                directors with a collective accumulated
-                experience of forty five years in the RMG
-                sector, they have a profound knowledge in
-                the areas of merchandising, quality control
-                and assurance, product pricing and
-                development.
-            </article>
-            <article class="one_third">
-                They play an active role in maintaining
-                liaison with the customers through
-                unhindered communication. The employees
-                working at Stellar Designs Ltd are
-                classified into different departments based
-                on their field of expertise.
-            </article>
-        </section>
-    </div>
+    </div> --}}
 
     <div style="background-color: #DEDEDE">
-        <section id="services" class="hoc container clear">
+        <section class="hoc container clear">
             <ul class="nospace group elements elements-three">
                 <li class="one_third appear_block1">
                     <article><a><i class="fas fa-chart-line"></i></a>
@@ -472,7 +454,6 @@
             <main class="hoc container clear">
                 <section class="group shout">
                     <article>
-                        <h1 class="animate__animated animate__bounce">An animated element</h1>
                         <h1 class="heading"><b>Our Suppliers</b></h1>
                         <p>Our manufacturing units are fully compliant with BSCI, SEDEX, WRAP, ACCORD,
                             ALLIANCE,Oeko-tex. All of them are vertically set and leading manufactures in
@@ -579,7 +560,7 @@
         <div class="wrapper coloured">
             <section id="testimonials" class="hoc container clear">
                 <div class="sectiontitle">
-                    <h6 class="heading font-x2">Contact US</h6>
+                    <h6 class="heading font-x2">Contact Us</h6>
                 </div>
                 <article class="one_third first">
                     <figure class="clear"><img class="lazy img_resize"
@@ -597,7 +578,7 @@
                     <figure class="clear"><img class="lazy img_resize"
                             src="{{ asset('assets/frontend/images/collected/mail.png') }}" alt="email">
                         <figcaption>
-                            <h6 class="heading"><span><strong>Send
+                            <h6 class="heading" style="text-transform:none; "><span><strong>Send
                                         us a
                                         mail:</strong> info@stellardesignsltd.com</span></h6>
                         </figcaption>
