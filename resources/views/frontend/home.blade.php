@@ -17,7 +17,7 @@
 @endpush
 
 @section('page_title')
-    Steller Design Ltd
+    Stellar Design Ltd
 @endsection
 
 @section('main_section')
@@ -603,13 +603,6 @@
             $(function() {
                 $('.lazy').Lazy();
             });
-
-            // $(window).on('scroll', function() {
-            //     if ($(".show_bounce").is(':visible')) {
-            //         alert('show');
-            //         $(".show_bounce").addClass("animate__animated animate__bounce");
-            //     }
-            // });
 
             $(window).scroll(function() {
                 var top_of_element2 = $(".appear_block").offset().top;
