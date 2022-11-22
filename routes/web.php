@@ -27,6 +27,10 @@ Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
 });
 
+Route::get('/clear-cache', function () {
+    Artisan::call('cache:clear');
+});
+
 
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 

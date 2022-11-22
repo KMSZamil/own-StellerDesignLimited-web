@@ -5,7 +5,7 @@
     <title>@yield('page_title')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="{{ asset('assets/images/z-black.png') }}" rel="icon">
+    <link href="{{ asset('assets/frontend/images/collected/fav_icon.ico') }}" rel="icon">
     <link href="{{ asset('assets/frontend/styles/layout.css') }}" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="{{ asset('assets/frontend/styles/animate.css')}}" />
 

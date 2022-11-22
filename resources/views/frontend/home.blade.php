@@ -17,7 +17,7 @@
 @endpush
 
 @section('page_title')
-    Stellar Design Ltd
+    Stellar Designs Ltd
 @endsection
 
 @section('main_section')
@@ -588,7 +588,7 @@
                     <figure class="clear"><img class="lazy img_resize"
                             src="{{ asset('assets/frontend/images/collected/phone.png') }}" alt="phone">
                         <figcaption>
-                            <h6 class="heading"><span><strong>Phone:</strong> +880 199 780 0054</span></h6>
+                            <h6 class="heading"><span><strong>Phone:</strong> +880 161 465 6896</span></h6>
                         </figcaption>
                     </figure>
                 </article>

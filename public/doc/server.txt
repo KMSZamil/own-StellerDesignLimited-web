@@ -5,3 +5,12 @@ DB_PORT=3306
 DB_DATABASE=fzrtechnology_demo
 DB_USERNAME=fzrtechnology_demo
 DB_PASSWORD=y91US86z3IZt
+
+
+//https://www.stellardesignsltdbd.com/
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=stellard_stellar_design
+DB_USERNAME=stellard_stellar_designs
+DB_PASSWORD=(fb^Ce2?P$M{

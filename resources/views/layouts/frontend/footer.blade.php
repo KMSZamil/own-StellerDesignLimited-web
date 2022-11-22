@@ -24,6 +24,6 @@
 <div class="wrapper">
     <div id="copyright" class="hoc clear" style="text-align: center">
         <p>Copyright &copy; 2018 - All Rights Reserved - <a>Stellar
-                Design Ltd</a></p>
+                Designs Ltd</a></p>
     </div>
 </div>
