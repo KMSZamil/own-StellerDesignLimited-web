@@ -580,7 +580,7 @@
                         <figcaption>
                             <h6 class="heading" style="text-transform:none; "><span><strong>Send
                                         us a
-                                        mail:</strong> info@stellardesignsltd.com</span></h6>
+                                        mail:</strong> info@stellardesignsltdbd.com</span></h6>
                         </figcaption>
                     </figure>
                 </article>
